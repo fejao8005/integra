@@ -80,7 +80,7 @@ export default function Contact() {
 
             <RevealOnScroll delay={300}>
               <ImageWithFade
-                src="/projetos/WhatsApp Image 2026-04-08 at 09.17.10 (3).jpeg"
+                src="/projetos/projeto-06.jpeg"
                 alt="Detalhe de Interior"
                 aspectRatio="aspect-[4/5]"
                 className="max-w-sm"

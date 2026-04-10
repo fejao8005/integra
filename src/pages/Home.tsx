@@ -28,7 +28,7 @@ export default function Home() {
           <div className="lg:col-span-7 relative">
             <div className="animate-scale-in" style={{ animationDelay: '0.3s' }}>
               <ImageWithFade
-                src="/projetos/WhatsApp Image 2026-04-08 at 09.17.09.jpeg"
+                src="/projetos/projeto-03.jpeg"
                 alt="Projeto Integra Atelier"
                 aspectRatio="aspect-[3/4] md:aspect-[4/5]"
                 loading="eager"
@@ -82,7 +82,7 @@ export default function Home() {
               <Link to="/projects" className="group block">
                 <div className="mb-5">
                   <ImageWithFade
-                    src="/projetos/WhatsApp Image 2026-04-08 at 09.17.09 (1).jpeg"
+                    src="/projetos/projeto-01.jpeg"
                     alt="Projetos Residenciais"
                     aspectRatio="aspect-[3/4]"
                     className="overflow-hidden"
@@ -99,7 +99,7 @@ export default function Home() {
               <Link to="/projects" className="group block">
                 <div className="mb-5">
                   <ImageWithFade
-                    src="/projetos/WhatsApp Image 2026-04-08 at 09.17.10.jpeg"
+                    src="/projetos/projeto-08.jpeg"
                     alt="Projetos Comerciais"
                     aspectRatio="aspect-[3/4]"
                     className="overflow-hidden"
@@ -116,7 +116,7 @@ export default function Home() {
               <Link to="/projects" className="group block">
                 <div className="mb-5">
                   <ImageWithFade
-                    src="/projetos/WhatsApp Image 2026-04-08 at 09.17.11.jpeg"
+                    src="/projetos/projeto-13.jpeg"
                     alt="Consultorias Personalizadas"
                     aspectRatio="aspect-[3/4]"
                     className="overflow-hidden"
@@ -133,7 +133,7 @@ export default function Home() {
               <Link to="/projects" className="group block">
                 <div className="mb-5">
                   <ImageWithFade
-                    src="/projetos/WhatsApp Image 2026-04-08 at 09.17.12.jpeg"
+                    src="/projetos/projeto-18.jpeg"
                     alt="Curadoria de Mobiliário"
                     aspectRatio="aspect-[3/4]"
                     className="overflow-hidden"
@@ -168,7 +168,7 @@ export default function Home() {
           </RevealOnScroll>
           <RevealOnScroll delay={200}>
             <ImageWithFade
-              src="/projetos/WhatsApp Image 2026-04-08 at 09.17.10 (1).jpeg"
+              src="/projetos/projeto-04.jpeg"
               alt="Mara Meloni - Fundadora"
               aspectRatio="aspect-[3/4]"
             />

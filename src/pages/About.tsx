@@ -103,7 +103,7 @@ export default function About() {
       <section className="max-w-[1440px] mx-auto px-6 md:px-10 lg:px-16 pb-20 md:pb-28">
         <RevealOnScroll>
           <ImageWithFade
-            src="/projetos/WhatsApp Image 2026-04-08 at 09.17.09 (2).jpeg"
+            src="/projetos/projeto-02.jpeg"
             alt="Projeto Integra Atelier"
             aspectRatio="aspect-[16/9]"
           />

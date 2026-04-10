@@ -39,7 +39,7 @@ export default function Methodology() {
               <div>
                 <div className="mb-6 md:mb-8">
                   <ImageWithFade
-                    src="/projetos/WhatsApp Image 2026-04-08 at 09.17.10 (2).jpeg"
+                    src="/projetos/projeto-05.jpeg"
                     alt="Escuta e Entendimento"
                     aspectRatio="aspect-[3/4]"
                   />
@@ -61,7 +61,7 @@ export default function Methodology() {
               <div className="lg:mt-16 xl:mt-28">
                 <div className="mb-6 md:mb-8">
                   <ImageWithFade
-                    src="/projetos/WhatsApp Image 2026-04-08 at 09.17.11 (1).jpeg"
+                    src="/projetos/projeto-09.jpeg"
                     alt="Conceito e Direcao Criativa"
                     aspectRatio="aspect-[4/5]"
                   />
@@ -83,7 +83,7 @@ export default function Methodology() {
               <div className="lg:mt-8 xl:mt-16">
                 <div className="mb-6 md:mb-8">
                   <ImageWithFade
-                    src="/projetos/WhatsApp Image 2026-04-08 at 09.17.12 (1).jpeg"
+                    src="/projetos/projeto-14.jpeg"
                     alt="Desenvolvimento do Projeto"
                     aspectRatio="aspect-[3/4]"
                   />
@@ -105,7 +105,7 @@ export default function Methodology() {
               <div className="lg:mt-16 xl:mt-32">
                 <div className="mb-6 md:mb-8">
                   <ImageWithFade
-                    src="/projetos/WhatsApp Image 2026-04-08 at 09.17.13 (1).jpeg"
+                    src="/projetos/projeto-19.jpeg"
                     alt="Acompanhamento"
                     aspectRatio="aspect-[4/3]"
                   />

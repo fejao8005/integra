@@ -61,7 +61,7 @@ export default function Projects() {
               <div className="group">
                 <div className="mb-4">
                   <ImageWithFade
-                    src="/projetos/WhatsApp Image 2026-04-08 at 09.17.09 (1).jpeg"
+                    src="/projetos/projeto-01.jpeg"
                     alt="Projeto Residencial 1"
                     aspectRatio="aspect-[4/3]"
                     className="overflow-hidden"
@@ -76,7 +76,7 @@ export default function Projects() {
               <div className="group">
                 <div className="mb-4">
                   <ImageWithFade
-                    src="/projetos/WhatsApp Image 2026-04-08 at 09.17.09 (2).jpeg"
+                    src="/projetos/projeto-02.jpeg"
                     alt="Projeto Residencial 2"
                     aspectRatio="aspect-[4/3]"
                     className="overflow-hidden"
@@ -91,7 +91,7 @@ export default function Projects() {
               <div className="group">
                 <div className="mb-4">
                   <ImageWithFade
-                    src="/projetos/WhatsApp Image 2026-04-08 at 09.17.10.jpeg"
+                    src="/projetos/projeto-08.jpeg"
                     alt="Projeto Residencial 3"
                     aspectRatio="aspect-[4/3]"
                     className="overflow-hidden"
@@ -124,7 +124,7 @@ export default function Projects() {
               <div className="group">
                 <div className="mb-4">
                   <ImageWithFade
-                    src="/projetos/WhatsApp Image 2026-04-08 at 09.17.10 (1).jpeg"
+                    src="/projetos/projeto-04.jpeg"
                     alt="Projeto Comercial 1"
                     aspectRatio="aspect-[4/3]"
                     className="overflow-hidden"
@@ -139,7 +139,7 @@ export default function Projects() {
               <div className="group">
                 <div className="mb-4">
                   <ImageWithFade
-                    src="/projetos/WhatsApp Image 2026-04-08 at 09.17.10 (2).jpeg"
+                    src="/projetos/projeto-05.jpeg"
                     alt="Projeto Comercial 2"
                     aspectRatio="aspect-[4/3]"
                     className="overflow-hidden"
@@ -154,7 +154,7 @@ export default function Projects() {
               <div className="group">
                 <div className="mb-4">
                   <ImageWithFade
-                    src="/projetos/WhatsApp Image 2026-04-08 at 09.17.10 (3).jpeg"
+                    src="/projetos/projeto-06.jpeg"
                     alt="Projeto Comercial 3"
                     aspectRatio="aspect-[4/3]"
                     className="overflow-hidden"
@@ -187,7 +187,7 @@ export default function Projects() {
               <div className="group">
                 <div className="mb-4">
                   <ImageWithFade
-                    src="/projetos/WhatsApp Image 2026-04-08 at 09.17.11.jpeg"
+                    src="/projetos/projeto-13.jpeg"
                     alt="Consultoria 1"
                     aspectRatio="aspect-[4/3]"
                     className="overflow-hidden"
@@ -202,7 +202,7 @@ export default function Projects() {
               <div className="group">
                 <div className="mb-4">
                   <ImageWithFade
-                    src="/projetos/WhatsApp Image 2026-04-08 at 09.17.11 (1).jpeg"
+                    src="/projetos/projeto-09.jpeg"
                     alt="Consultoria 2"
                     aspectRatio="aspect-[4/3]"
                     className="overflow-hidden"
@@ -235,7 +235,7 @@ export default function Projects() {
               <div className="group">
                 <div className="mb-4">
                   <ImageWithFade
-                    src="/projetos/WhatsApp Image 2026-04-08 at 09.17.12.jpeg"
+                    src="/projetos/projeto-18.jpeg"
                     alt="Curadoria 1"
                     aspectRatio="aspect-[4/3]"
                     className="overflow-hidden"
@@ -250,7 +250,7 @@ export default function Projects() {
               <div className="group">
                 <div className="mb-4">
                   <ImageWithFade
-                    src="/projetos/WhatsApp Image 2026-04-08 at 09.17.12 (1).jpeg"
+                    src="/projetos/projeto-14.jpeg"
                     alt="Curadoria 2"
                     aspectRatio="aspect-[4/3]"
                     className="overflow-hidden"
@@ -265,7 +265,7 @@ export default function Projects() {
               <div className="group">
                 <div className="mb-4">
                   <ImageWithFade
-                    src="/projetos/WhatsApp Image 2026-04-08 at 09.17.12 (2).jpeg"
+                    src="/projetos/projeto-15.jpeg"
                     alt="Curadoria 3"
                     aspectRatio="aspect-[4/3]"
                     className="overflow-hidden"
@@ -293,7 +293,7 @@ export default function Projects() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
             <RevealOnScroll delay={0}>
               <ImageWithFade
-                src="/projetos/WhatsApp Image 2026-04-08 at 09.17.13.jpeg"
+                src="/projetos/projeto-21.jpeg"
                 alt="Projeto Galeria 1"
                 aspectRatio="aspect-[16/10]"
                 className="overflow-hidden"
@@ -302,7 +302,7 @@ export default function Projects() {
             </RevealOnScroll>
             <RevealOnScroll delay={150}>
               <ImageWithFade
-                src="/projetos/WhatsApp Image 2026-04-08 at 09.17.13 (1).jpeg"
+                src="/projetos/projeto-19.jpeg"
                 alt="Projeto Galeria 2"
                 aspectRatio="aspect-[16/10]"
                 className="overflow-hidden"
@@ -314,7 +314,7 @@ export default function Projects() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mt-6 md:mt-8">
             <RevealOnScroll delay={0}>
               <ImageWithFade
-                src="/projetos/WhatsApp Image 2026-04-08 at 09.17.13 (2).jpeg"
+                src="/projetos/projeto-20.jpeg"
                 alt="Projeto Galeria 3"
                 aspectRatio="aspect-[4/3]"
                 className="overflow-hidden"
@@ -323,7 +323,7 @@ export default function Projects() {
             </RevealOnScroll>
             <RevealOnScroll delay={100}>
               <ImageWithFade
-                src="/projetos/WhatsApp Image 2026-04-08 at 09.17.11 (2).jpeg"
+                src="/projetos/projeto-10.jpeg"
                 alt="Projeto Galeria 4"
                 aspectRatio="aspect-[4/3]"
                 className="overflow-hidden"
@@ -332,7 +332,7 @@ export default function Projects() {
             </RevealOnScroll>
             <RevealOnScroll delay={200}>
               <ImageWithFade
-                src="/projetos/WhatsApp Image 2026-04-08 at 09.17.11 (3).jpeg"
+                src="/projetos/projeto-11.jpeg"
                 alt="Projeto Galeria 5"
                 aspectRatio="aspect-[4/3]"
                 className="overflow-hidden"
