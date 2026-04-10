@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" fill="#f5f4f0"/>
+  <text x="50%" y="38" text-anchor="middle" font-family="Jost, sans-serif" font-size="28" font-weight="400" fill="#000000">I</text>
+  <line x1="18" y1="44" x2="30" y2="44" stroke="#deb77c" stroke-width="1.2"/>
+  <circle cx="32" cy="44" r="1.8" fill="#bf8229"/>
+  <line x1="34" y1="44" x2="46" y2="44" stroke="#eddbc3" stroke-width="1.2"/>
+</svg>
