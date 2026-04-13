@@ -42,7 +42,7 @@ export default function Contact() {
                 iniciar uma<br />
                 <span className="text-integra-gold">conversa?</span>
               </h1>
-              <p className="text-integra-gray text-[13px] leading-relaxed max-w-md mb-12 md:mb-16">
+              <p className="text-integra-gray text-base leading-relaxed max-w-md mb-12 md:mb-16">
                 Todo espa&ccedil;o excepcional come&ccedil;a com uma vis&atilde;o. Compartilhe a sua conosco e juntos criaremos um ambiente que ressoa com sua hist&oacute;ria.
               </p>
             </RevealOnScroll>
@@ -53,7 +53,7 @@ export default function Contact() {
                 <a href="mailto:mara@integraateliedeinteriores.com.br" className="text-lg md:text-xl font-sans text-integra-black block mb-1.5 hover:text-integra-gold-dark transition-colors duration-300">
                   mara@integraateliedeinteriores.com.br
                 </a>
-                <a href="tel:+5511943400222" className="text-integra-gray text-[13px] hover:text-integra-black transition-colors duration-300">
+                <a href="tel:+5511943400222" className="text-integra-gray text-base hover:text-integra-black transition-colors duration-300">
                   11 94340-0222
                 </a>
               </div>
@@ -68,7 +68,7 @@ export default function Contact() {
                       href="https://instagram.com/Integraatelierdeinteriores"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-[13px] text-integra-black hover:text-integra-gold-dark transition-colors duration-300 flex items-center gap-1 group"
+                      className="text-base text-integra-black hover:text-integra-gold-dark transition-colors duration-300 flex items-center gap-1 group"
                     >
                       <span>@Integraatelierdeinteriores</span>
                       <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">&rarr;</span>
@@ -202,19 +202,19 @@ export default function Contact() {
           <div className="mt-24 md:mt-32 pt-14 md:pt-16 border-t border-integra-beige/30 grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10">
             <div>
               <p className="text-[10px] tracking-[0.2em] text-integra-gold uppercase mb-3 md:mb-4">Email</p>
-              <a href="mailto:mara@integraateliedeinteriores.com.br" className="text-integra-black font-sans hover:text-integra-gold-dark transition-colors duration-300 text-[13px]">
+              <a href="mailto:mara@integraateliedeinteriores.com.br" className="text-integra-black font-sans hover:text-integra-gold-dark transition-colors duration-300 text-base">
                 mara@integraateliedeinteriores.com.br
               </a>
             </div>
             <div>
               <p className="text-[10px] tracking-[0.2em] text-integra-gold uppercase mb-3 md:mb-4">Telefone</p>
-              <a href="tel:+5511943400222" className="text-integra-black font-sans hover:text-integra-gold-dark transition-colors duration-300 text-[13px]">
+              <a href="tel:+5511943400222" className="text-integra-black font-sans hover:text-integra-gold-dark transition-colors duration-300 text-base">
                 11 94340-0222
               </a>
             </div>
             <div>
               <p className="text-[10px] tracking-[0.2em] text-integra-gold uppercase mb-3 md:mb-4">Instagram</p>
-              <a href="https://instagram.com/Integraatelierdeinteriores" target="_blank" rel="noopener noreferrer" className="text-integra-black font-sans hover:text-integra-gold-dark transition-colors duration-300 text-[13px]">
+              <a href="https://instagram.com/Integraatelierdeinteriores" target="_blank" rel="noopener noreferrer" className="text-integra-black font-sans hover:text-integra-gold-dark transition-colors duration-300 text-base">
                 @Integraatelierdeinteriores
               </a>
             </div>

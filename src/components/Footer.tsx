@@ -10,7 +10,7 @@ export default function Footer() {
           {/* Brand & Description */}
           <div className="md:col-span-5">
             <Logo />
-            <p className="text-integra-gray text-[11px] tracking-wider leading-relaxed max-w-xs mt-6">
+            <p className="text-integra-gray text-base tracking-wider leading-relaxed max-w-xs mt-6">
               Projetos que traduzem identidade, estilo de vida e forma de viver.
             </p>
           </div>
@@ -20,7 +20,7 @@ export default function Footer() {
             <h4 className="text-[9.5px] font-medium tracking-[0.2em] mb-5 uppercase text-integra-gray">
               Conecte-se
             </h4>
-            <ul className="space-y-3 text-[11px] tracking-wider text-integra-gray uppercase">
+            <ul className="space-y-3 text-base tracking-wider text-integra-gray uppercase">
               <li>
                 <a
                   href="https://instagram.com/Integraatelierdeinteriores"
@@ -47,7 +47,7 @@ export default function Footer() {
             <h4 className="text-[9.5px] font-medium tracking-[0.2em] mb-5 uppercase text-integra-gray">
               Contato
             </h4>
-            <ul className="space-y-3 text-[11px] tracking-wider text-integra-gray uppercase">
+            <ul className="space-y-3 text-base tracking-wider text-integra-gray uppercase">
               <li>
                 <a
                   href="mailto:mara@integraateliedeinteriores.com.br"

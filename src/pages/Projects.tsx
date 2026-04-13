@@ -22,7 +22,7 @@ export default function Projects() {
               </h1>
             </div>
             <div className="lg:col-span-4 flex items-end">
-              <p className="text-integra-gray text-[13px] leading-relaxed">
+              <p className="text-integra-gray text-base leading-relaxed">
                 Cada projeto desenvolvido pelo Integra Atelier parte de um princ&iacute;pio essencial: n&atilde;o existem solu&ccedil;&otilde;es prontas &mdash; existem hist&oacute;rias &uacute;nicas.
               </p>
             </div>
@@ -32,10 +32,10 @@ export default function Projects() {
         {/* Introducao */}
         <RevealOnScroll>
           <div className="max-w-3xl mb-16 md:mb-20">
-            <p className="text-integra-gray text-[13px] leading-relaxed mb-5">
+            <p className="text-integra-gray text-base leading-relaxed mb-5">
               Com um olhar atento ao estilo de vida, &agrave;s necessidades e aos desejos de cada cliente, os projetos s&atilde;o constru&iacute;dos de forma personalizada, equilibrando est&eacute;tica, funcionalidade e identidade.
             </p>
-            <p className="text-integra-black text-[13px] font-medium tracking-wide">
+            <p className="text-integra-black text-base font-medium tracking-wide">
               O resultado s&atilde;o espa&ccedil;os sofisticados, com linguagem contempor&acirc;nea, pensados para proporcionar conforto, pertencimento e uma experi&ecirc;ncia est&eacute;tica marcante.
             </p>
           </div>
@@ -52,7 +52,7 @@ export default function Projects() {
                 <p className="text-[10px] tracking-[0.2em] text-integra-gold uppercase mb-1.5 md:mb-2">Categoria</p>
                 <h2 className="text-2xl md:text-3xl lg:text-4xl font-sans font-light text-integra-black tracking-wide">Projetos Residenciais</h2>
               </div>
-              <p className="text-integra-gray text-[13px] max-w-md md:text-right">Projetos completos para transformar sua casa em um lar que reflete quem voc&ecirc; &eacute;.</p>
+              <p className="text-integra-gray text-base max-w-md md:text-right">Projetos completos para transformar sua casa em um lar que reflete quem voc&ecirc; &eacute;.</p>
             </div>
           </RevealOnScroll>
 
@@ -69,7 +69,7 @@ export default function Projects() {
                   />
                 </div>
                 <h3 className="text-base font-sans text-integra-black">Resid&ecirc;ncia Contempor&acirc;nea</h3>
-                <p className="text-integra-gray text-[11px]">S&atilde;o Paulo, SP</p>
+                <p className="text-integra-gray text-base">S&atilde;o Paulo, SP</p>
               </div>
             </RevealOnScroll>
             <RevealOnScroll delay={100}>
@@ -84,7 +84,7 @@ export default function Projects() {
                   />
                 </div>
                 <h3 className="text-base font-sans text-integra-black">Apartamento Minimalista</h3>
-                <p className="text-integra-gray text-[11px]">S&atilde;o Paulo, SP</p>
+                <p className="text-integra-gray text-base">S&atilde;o Paulo, SP</p>
               </div>
             </RevealOnScroll>
             <RevealOnScroll delay={200}>
@@ -99,7 +99,7 @@ export default function Projects() {
                   />
                 </div>
                 <h3 className="text-base font-sans text-integra-black">Casa de Campo</h3>
-                <p className="text-integra-gray text-[11px]">Interior de SP</p>
+                <p className="text-integra-gray text-base">Interior de SP</p>
               </div>
             </RevealOnScroll>
           </div>
@@ -115,7 +115,7 @@ export default function Projects() {
                 <p className="text-[10px] tracking-[0.2em] text-integra-gold uppercase mb-1.5 md:mb-2">Categoria</p>
                 <h2 className="text-2xl md:text-3xl lg:text-4xl font-sans font-light text-integra-black tracking-wide">Projetos Comerciais</h2>
               </div>
-              <p className="text-integra-gray text-[13px] max-w-md md:text-right">Espa&ccedil;os que inspiram e potencializam resultados nos neg&oacute;cios.</p>
+              <p className="text-integra-gray text-base max-w-md md:text-right">Espa&ccedil;os que inspiram e potencializam resultados nos neg&oacute;cios.</p>
             </div>
           </RevealOnScroll>
 
@@ -132,7 +132,7 @@ export default function Projects() {
                   />
                 </div>
                 <h3 className="text-base font-sans text-integra-black">Escrit&oacute;rio Corporativo</h3>
-                <p className="text-integra-gray text-[11px]">S&atilde;o Paulo, SP</p>
+                <p className="text-integra-gray text-base">S&atilde;o Paulo, SP</p>
               </div>
             </RevealOnScroll>
             <RevealOnScroll delay={100}>
@@ -147,7 +147,7 @@ export default function Projects() {
                   />
                 </div>
                 <h3 className="text-base font-sans text-integra-black">Cl&iacute;nica Est&eacute;tica</h3>
-                <p className="text-integra-gray text-[11px]">S&atilde;o Paulo, SP</p>
+                <p className="text-integra-gray text-base">S&atilde;o Paulo, SP</p>
               </div>
             </RevealOnScroll>
             <RevealOnScroll delay={200}>
@@ -162,7 +162,7 @@ export default function Projects() {
                   />
                 </div>
                 <h3 className="text-base font-sans text-integra-black">Restaurante Boutique</h3>
-                <p className="text-integra-gray text-[11px]">S&atilde;o Paulo, SP</p>
+                <p className="text-integra-gray text-base">S&atilde;o Paulo, SP</p>
               </div>
             </RevealOnScroll>
           </div>
@@ -178,7 +178,7 @@ export default function Projects() {
                 <p className="text-[10px] tracking-[0.2em] text-integra-gold uppercase mb-1.5 md:mb-2">Servi&ccedil;o</p>
                 <h2 className="text-2xl md:text-3xl lg:text-4xl font-sans font-light text-integra-black tracking-wide">Consultorias Personalizadas</h2>
               </div>
-              <p className="text-integra-gray text-[13px] max-w-md md:text-right">Orienta&ccedil;&atilde;o especializada para transformar seu espa&ccedil;o com dire&ccedil;&atilde;o criativa.</p>
+              <p className="text-integra-gray text-base max-w-md md:text-right">Orienta&ccedil;&atilde;o especializada para transformar seu espa&ccedil;o com dire&ccedil;&atilde;o criativa.</p>
             </div>
           </RevealOnScroll>
 
@@ -195,7 +195,7 @@ export default function Projects() {
                   />
                 </div>
                 <h3 className="text-base font-sans text-integra-black">Consultoria de Cores</h3>
-                <p className="text-integra-gray text-[11px]">Paleta personalizada para seu ambiente</p>
+                <p className="text-integra-gray text-base">Paleta personalizada para seu ambiente</p>
               </div>
             </RevealOnScroll>
             <RevealOnScroll delay={100}>
@@ -210,7 +210,7 @@ export default function Projects() {
                   />
                 </div>
                 <h3 className="text-base font-sans text-integra-black">Consultoria de Layout</h3>
-                <p className="text-integra-gray text-[11px]">Otimiza&ccedil;&atilde;o de espa&ccedil;os e funcionalidade</p>
+                <p className="text-integra-gray text-base">Otimiza&ccedil;&atilde;o de espa&ccedil;os e funcionalidade</p>
               </div>
             </RevealOnScroll>
           </div>
@@ -226,7 +226,7 @@ export default function Projects() {
                 <p className="text-[10px] tracking-[0.2em] text-integra-gold uppercase mb-1.5 md:mb-2">Servi&ccedil;o</p>
                 <h2 className="text-2xl md:text-3xl lg:text-4xl font-sans font-light text-integra-black tracking-wide">Curadoria de Mobili&aacute;rio e Objetos</h2>
               </div>
-              <p className="text-integra-gray text-[13px] max-w-md md:text-right">Sele&ccedil;&atilde;o criteriosa de pe&ccedil;as que d&atilde;o personalidade ao seu espa&ccedil;o.</p>
+              <p className="text-integra-gray text-base max-w-md md:text-right">Sele&ccedil;&atilde;o criteriosa de pe&ccedil;as que d&atilde;o personalidade ao seu espa&ccedil;o.</p>
             </div>
           </RevealOnScroll>
 
@@ -243,7 +243,7 @@ export default function Projects() {
                   />
                 </div>
                 <h3 className="text-base font-sans text-integra-black">Mobili&aacute;rio Autoral</h3>
-                <p className="text-integra-gray text-[11px]">Pe&ccedil;as selecionadas de designers renomados</p>
+                <p className="text-integra-gray text-base">Pe&ccedil;as selecionadas de designers renomados</p>
               </div>
             </RevealOnScroll>
             <RevealOnScroll delay={100}>
@@ -258,7 +258,7 @@ export default function Projects() {
                   />
                 </div>
                 <h3 className="text-base font-sans text-integra-black">Objetos Decorativos</h3>
-                <p className="text-integra-gray text-[11px]">Detalhes que fazem a diferen&ccedil;a</p>
+                <p className="text-integra-gray text-base">Detalhes que fazem a diferen&ccedil;a</p>
               </div>
             </RevealOnScroll>
             <RevealOnScroll delay={200}>
@@ -273,7 +273,7 @@ export default function Projects() {
                   />
                 </div>
                 <h3 className="text-base font-sans text-integra-black">Ilumina&ccedil;&atilde;o</h3>
-                <p className="text-integra-gray text-[11px]">Pe&ccedil;as que transformam ambientes</p>
+                <p className="text-integra-gray text-base">Pe&ccedil;as que transformam ambientes</p>
               </div>
             </RevealOnScroll>
           </div>
@@ -350,7 +350,7 @@ export default function Projects() {
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-sans font-light text-integra-black mb-7 md:mb-8 tracking-wide">
               Quer um projeto assim?
             </h2>
-            <p className="text-integra-gray text-[13px] leading-relaxed mb-8 md:mb-10">
+            <p className="text-integra-gray text-base leading-relaxed mb-8 md:mb-10">
               Cada espa&ccedil;o deve ser &uacute;nico, assim como quem o habita. Vamos criar o seu?
             </p>
             <a
