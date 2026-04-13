@@ -40,7 +40,7 @@ export default function Contact() {
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-sans font-light leading-[1.08] tracking-wide text-integra-black mb-6 md:mb-8">
                 Vamos<br />
                 iniciar uma<br />
-                <span className="text-integra-gold">conversa.</span>
+                <span className="text-integra-gold">conversa?</span>
               </h1>
               <p className="text-integra-gray text-[13px] leading-relaxed max-w-md mb-12 md:mb-16">
                 Todo espa&ccedil;o excepcional come&ccedil;a com uma vis&atilde;o. Compartilhe a sua conosco e juntos criaremos um ambiente que ressoa com sua hist&oacute;ria.

@@ -2,6 +2,9 @@ import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import ImageWithFade from '../components/ImageWithFade';
 import RevealOnScroll from '../components/RevealOnScroll';
+import MagneticButton from '../components/MagneticButton';
+
+const WHATSAPP_URL = 'https://wa.me/5511943400222';
 
 export default function About() {
   useEffect(() => {
@@ -178,9 +181,6 @@ export default function About() {
             <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-sans font-light leading-tight tracking-wide mb-7 md:mb-8">
               O Integra Atelier atende clientes que buscam mais do que um projeto &mdash; buscam um espa&ccedil;o que represente quem s&atilde;o.
             </h2>
-            <p className="text-white/70 text-[13px] leading-relaxed max-w-2xl mx-auto">
-              S&atilde;o pessoas em fase de consolida&ccedil;&atilde;o, que valorizam qualidade de vida, conforto e est&eacute;tica refinada, e entendem o design como parte essencial da forma de viver.
-            </p>
           </RevealOnScroll>
         </div>
       </section>
@@ -189,13 +189,15 @@ export default function About() {
       <section className="py-20 md:py-28 bg-integra-bg text-center">
         <RevealOnScroll>
           <div className="max-w-2xl mx-auto px-6">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-sans font-light text-integra-black mb-10 md:mb-12 tracking-wide">Inicie a Conversa.</h2>
-            <Link
-              to="/contact"
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif font-light text-integra-black mb-10 md:mb-12 tracking-[0.01em]">Inicie a Conversa.</h2>
+            <MagneticButton
+              href={WHATSAPP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-premium inline-block bg-integra-gold-dark hover:bg-[#a87220] text-white text-[10.5px] tracking-[0.15em] uppercase px-9 py-3.5 transition-all duration-300 hover:shadow-lg hover:shadow-integra-gold-dark/20"
             >
               Solicite uma Consultoria
-            </Link>
+            </MagneticButton>
           </div>
         </RevealOnScroll>
       </section>

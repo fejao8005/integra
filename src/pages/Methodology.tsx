@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import ImageWithFade from '../components/ImageWithFade';
 import RevealOnScroll from '../components/RevealOnScroll';
+import MagneticButton from '../components/MagneticButton';
+
+const WHATSAPP_URL = 'https://wa.me/5511943400222';
 
 export default function Methodology() {
   useEffect(() => {
@@ -130,23 +132,20 @@ export default function Methodology() {
       <section className="py-20 md:py-28 bg-integra-bg text-center border-t border-integra-beige/30">
         <RevealOnScroll>
           <div className="max-w-3xl mx-auto px-6">
-            <div className="w-12 h-12 border border-integra-gold rounded-full flex items-center justify-center mx-auto mb-7 md:mb-8">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="text-integra-gold">
-                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
-              </svg>
-            </div>
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-sans font-light text-integra-black mb-7 md:mb-8 tracking-wide">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif font-light text-integra-black mb-7 md:mb-8 tracking-[0.01em]">
               Uma Jornada Guiada por Confian&ccedil;a
             </h2>
-            <p className="text-integra-gray text-[13px] leading-relaxed mb-10 md:mb-12 max-w-xl mx-auto">
+            <p className="text-integra-gray text-sm md:text-[13px] leading-relaxed mb-10 md:mb-12 max-w-xl mx-auto">
               Mais do que um processo t&eacute;cnico, trata-se de uma jornada guiada por confian&ccedil;a, alinhamento e sensibilidade.
             </p>
-            <Link
-              to="/contact"
+            <MagneticButton
+              href={WHATSAPP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-[10.5px] tracking-[0.15em] text-integra-black uppercase border-b border-integra-black pb-1 hover:text-integra-gold-dark hover:border-integra-gold-dark transition-colors duration-300 link-animated"
             >
               Inicie uma Conversa
-            </Link>
+            </MagneticButton>
           </div>
         </RevealOnScroll>
       </section>
