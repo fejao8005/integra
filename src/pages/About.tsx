@@ -177,7 +177,6 @@ export default function About() {
       <section className="py-20 md:py-28 bg-integra-black text-white">
         <div className="max-w-4xl mx-auto px-6 md:px-10 lg:px-16 text-center">
           <RevealOnScroll>
-            <p className="text-[10px] tracking-[0.2em] text-integra-gold uppercase mb-7 md:mb-8">Posicionamento</p>
             <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-sans font-light leading-tight tracking-wide mb-7 md:mb-8">
               O Integra Atelier atende clientes que buscam mais do que um projeto &mdash; buscam um espa&ccedil;o que represente quem s&atilde;o.
             </h2>
