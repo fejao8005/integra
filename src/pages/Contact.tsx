@@ -183,7 +183,7 @@ export default function Contact() {
                   <div className="flex items-center gap-5 md:gap-6 pt-6 md:pt-8">
                     <button
                       type="submit"
-                      className="btn-premium bg-integra-gold-dark hover:bg-[#a87220] text-white text-[10.5px] tracking-[0.15em] uppercase px-8 py-3.5 transition-all duration-300 hover:shadow-lg hover:shadow-integra-gold-dark/20"
+                      className="btn-premium bg-integra-gold-light hover:bg-[#c49a5f] text-white text-[10.5px] tracking-[0.15em] uppercase px-8 py-3.5 transition-all duration-300 hover:shadow-lg hover:shadow-integra-gold-light/20"
                     >
                       Enviar Mensagem
                     </button>

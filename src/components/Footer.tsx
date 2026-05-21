@@ -10,8 +10,12 @@ export default function Footer() {
           {/* Brand & Description */}
           <div className="md:col-span-5">
             <Logo />
-            <p className="text-integra-gray text-base tracking-wider leading-relaxed max-w-xs mt-6">
+            <p className="text-integra-gray text-base tracking-wider leading-relaxed max-w-xs mt-6 mb-6">
               Projetos que traduzem identidade, estilo de vida e forma de viver.
+            </p>
+            <p className="text-[9.5px] tracking-[0.15em] text-integra-gray uppercase leading-relaxed">
+              &copy; {new Date().getFullYear()} Integra Atelier de Interiores.<br />
+              Todos os direitos reservados.
             </p>
           </div>
 
@@ -31,14 +35,6 @@ export default function Footer() {
                   Instagram
                 </a>
               </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-integra-gold-dark transition-colors duration-300 link-animated inline-block"
-                >
-                  LinkedIn
-                </a>
-              </li>
             </ul>
           </div>
 
@@ -56,32 +52,9 @@ export default function Footer() {
                   Email
                 </a>
               </li>
-              <li>
-                <a
-                  href="tel:+5511943400222"
-                  className="hover:text-integra-gold-dark transition-colors duration-300 link-animated inline-block"
-                >
-                  11 94340-0222
-                </a>
-              </li>
             </ul>
           </div>
 
-          {/* Copyright */}
-          <div className="md:col-span-3 text-right hidden md:flex flex-col justify-end">
-            <p className="text-[9.5px] tracking-[0.15em] text-integra-gray uppercase leading-relaxed">
-              &copy; {new Date().getFullYear()} Integra Atelier de Interiores.<br />
-              Todos os direitos reservados.
-            </p>
-          </div>
-        </div>
-
-        {/* Mobile Copyright */}
-        <div className="mt-14 pt-8 border-t border-integra-beige/30 md:hidden">
-          <p className="text-[9.5px] tracking-[0.15em] text-integra-gray uppercase leading-relaxed text-center">
-            &copy; {new Date().getFullYear()} Integra Atelier de Interiores.<br />
-            Todos os direitos reservados.
-          </p>
         </div>
       </div>
     </footer>

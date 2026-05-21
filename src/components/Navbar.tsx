@@ -48,8 +48,8 @@ export default function Navbar() {
       animate={{ y: hidden ? '-110%' : 0 }}
       transition={{ type: 'spring', stiffness: 100, damping: 20 }}
       className={`fixed w-full z-50 transition-[background,padding,box-shadow] duration-500 ${scrolled
-          ? 'bg-integra-bg/80 backdrop-blur-md py-4 shadow-sm'
-          : 'bg-transparent py-6'
+          ? 'bg-integra-beige py-4 shadow-sm'
+          : 'bg-integra-beige py-6'
         }`}
     >
       <div className="max-w-[1440px] mx-auto px-6 md:px-10 lg:px-16">
@@ -85,7 +85,7 @@ export default function Navbar() {
           <div className="hidden md:block">
             <Link
               to="/contact"
-              className="relative inline-block bg-integra-gold-dark hover:bg-[#a87220] text-white text-[10.5px] tracking-[0.15em] uppercase px-7 py-2.5 transition-all duration-300 hover:shadow-lg hover:shadow-integra-gold-dark/20"
+              className="relative inline-block bg-integra-gold-light hover:bg-[#c49a5f] text-white text-[10.5px] tracking-[0.15em] uppercase px-7 py-2.5 transition-all duration-300 hover:shadow-lg hover:shadow-integra-gold-light/20"
             >
               Contato
             </Link>
@@ -154,7 +154,7 @@ export default function Navbar() {
               <Link
                 to="/contact"
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="inline-block bg-integra-gold-dark text-white text-[10.5px] tracking-[0.15em] uppercase px-8 py-3 transition-colors duration-300"
+                className="inline-block bg-integra-gold-light text-white text-[10.5px] tracking-[0.15em] uppercase px-8 py-3 transition-colors duration-300"
               >
                 Contato
               </Link>

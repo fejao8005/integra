@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import ImageWithFade from '../components/ImageWithFade';
 import RevealOnScroll from '../components/RevealOnScroll';
+import { Link } from 'react-router-dom';
 
 export default function Projects() {
   useEffect(() => {
@@ -43,134 +44,37 @@ export default function Projects() {
 
       </div>
 
-      {/* Residencial */}
-      <section className="py-16 md:py-20">
+      {/* Projeto Destacado - Perdizes 01 */}
+      <section className="pb-16 md:pb-20">
         <div className="max-w-[1440px] mx-auto px-6 md:px-10 lg:px-16">
           <RevealOnScroll>
-            <div className="flex flex-col md:flex-row justify-between items-baseline mb-10 md:mb-12 gap-4">
-              <div>
-                <p className="text-[10px] tracking-[0.2em] text-integra-gold uppercase mb-1.5 md:mb-2">Categoria</p>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-sans font-light text-integra-black tracking-wide">Projetos Residenciais</h2>
+            <Link to="/projects/perdizes-01" className="group block">
+              <div className="relative overflow-hidden">
+                <ImageWithFade
+                  src="/projetos/projeto-01.jpeg"
+                  alt="Perdizes 01"
+                  aspectRatio="aspect-[16/9]"
+                  className="overflow-hidden"
+                  imgClassName="group-hover:scale-105 transition-transform duration-700"
+                />
+                <div className="absolute inset-0 bg-integra-black/20 group-hover:bg-integra-black/10 transition-colors duration-500" />
+                <div className="absolute bottom-8 left-8 md:bottom-12 md:left-12">
+                  <p className="text-[10px] tracking-[0.2em] text-white uppercase mb-2 md:mb-3">Projeto em Destaque</p>
+                  <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-futura font-light text-white tracking-wide">
+                    Perdizes 01
+                  </h2>
+                  <p className="text-white/80 text-base md:text-lg mt-2 md:mt-3 max-w-md">
+                    Clique para ver o projeto completo
+                  </p>
+                </div>
               </div>
-              <p className="text-integra-gray text-base max-w-md md:text-right">Projetos completos para transformar sua casa em um lar que reflete quem voc&ecirc; &eacute;.</p>
-            </div>
+            </Link>
           </RevealOnScroll>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-            <RevealOnScroll delay={0}>
-              <div className="group">
-                <div className="mb-4">
-                  <ImageWithFade
-                    src="/projetos/projeto-01.jpeg"
-                    alt="Projeto Residencial 1"
-                    aspectRatio="aspect-[4/3]"
-                    className="overflow-hidden"
-                    imgClassName="group-hover:scale-105 transition-transform duration-700"
-                  />
-                </div>
-                <h3 className="text-base font-sans text-integra-black">Resid&ecirc;ncia Contempor&acirc;nea</h3>
-                <p className="text-integra-gray text-base">S&atilde;o Paulo, SP</p>
-              </div>
-            </RevealOnScroll>
-            <RevealOnScroll delay={100}>
-              <div className="group">
-                <div className="mb-4">
-                  <ImageWithFade
-                    src="/projetos/projeto-02.jpeg"
-                    alt="Projeto Residencial 2"
-                    aspectRatio="aspect-[4/3]"
-                    className="overflow-hidden"
-                    imgClassName="group-hover:scale-105 transition-transform duration-700"
-                  />
-                </div>
-                <h3 className="text-base font-sans text-integra-black">Apartamento Minimalista</h3>
-                <p className="text-integra-gray text-base">S&atilde;o Paulo, SP</p>
-              </div>
-            </RevealOnScroll>
-            <RevealOnScroll delay={200}>
-              <div className="group">
-                <div className="mb-4">
-                  <ImageWithFade
-                    src="/projetos/projeto-08.jpeg"
-                    alt="Projeto Residencial 3"
-                    aspectRatio="aspect-[4/3]"
-                    className="overflow-hidden"
-                    imgClassName="group-hover:scale-105 transition-transform duration-700"
-                  />
-                </div>
-                <h3 className="text-base font-sans text-integra-black">Casa de Campo</h3>
-                <p className="text-integra-gray text-base">Interior de SP</p>
-              </div>
-            </RevealOnScroll>
-          </div>
-        </div>
-      </section>
-
-      {/* Comercial */}
-      <section className="py-16 md:py-20 bg-integra-section">
-        <div className="max-w-[1440px] mx-auto px-6 md:px-10 lg:px-16">
-          <RevealOnScroll>
-            <div className="flex flex-col md:flex-row justify-between items-baseline mb-10 md:mb-12 gap-4">
-              <div>
-                <p className="text-[10px] tracking-[0.2em] text-integra-gold uppercase mb-1.5 md:mb-2">Categoria</p>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-sans font-light text-integra-black tracking-wide">Projetos Comerciais</h2>
-              </div>
-              <p className="text-integra-gray text-base max-w-md md:text-right">Espa&ccedil;os que inspiram e potencializam resultados nos neg&oacute;cios.</p>
-            </div>
-          </RevealOnScroll>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-            <RevealOnScroll delay={0}>
-              <div className="group">
-                <div className="mb-4">
-                  <ImageWithFade
-                    src="/projetos/projeto-04.jpeg"
-                    alt="Projeto Comercial 1"
-                    aspectRatio="aspect-[4/3]"
-                    className="overflow-hidden"
-                    imgClassName="group-hover:scale-105 transition-transform duration-700"
-                  />
-                </div>
-                <h3 className="text-base font-sans text-integra-black">Escrit&oacute;rio Corporativo</h3>
-                <p className="text-integra-gray text-base">S&atilde;o Paulo, SP</p>
-              </div>
-            </RevealOnScroll>
-            <RevealOnScroll delay={100}>
-              <div className="group">
-                <div className="mb-4">
-                  <ImageWithFade
-                    src="/projetos/projeto-05.jpeg"
-                    alt="Projeto Comercial 2"
-                    aspectRatio="aspect-[4/3]"
-                    className="overflow-hidden"
-                    imgClassName="group-hover:scale-105 transition-transform duration-700"
-                  />
-                </div>
-                <h3 className="text-base font-sans text-integra-black">Cl&iacute;nica Est&eacute;tica</h3>
-                <p className="text-integra-gray text-base">S&atilde;o Paulo, SP</p>
-              </div>
-            </RevealOnScroll>
-            <RevealOnScroll delay={200}>
-              <div className="group">
-                <div className="mb-4">
-                  <ImageWithFade
-                    src="/projetos/projeto-06.jpeg"
-                    alt="Projeto Comercial 3"
-                    aspectRatio="aspect-[4/3]"
-                    className="overflow-hidden"
-                    imgClassName="group-hover:scale-105 transition-transform duration-700"
-                  />
-                </div>
-                <h3 className="text-base font-sans text-integra-black">Restaurante Boutique</h3>
-                <p className="text-integra-gray text-base">S&atilde;o Paulo, SP</p>
-              </div>
-            </RevealOnScroll>
-          </div>
         </div>
       </section>
 
       {/* Consultorias */}
-      <section className="py-16 md:py-20">
+      <section className="py-16 md:py-20 bg-integra-section">
         <div className="max-w-[1440px] mx-auto px-6 md:px-10 lg:px-16">
           <RevealOnScroll>
             <div className="flex flex-col md:flex-row justify-between items-baseline mb-10 md:mb-12 gap-4">
@@ -218,7 +122,7 @@ export default function Projects() {
       </section>
 
       {/* Curadoria */}
-      <section className="py-16 md:py-20 bg-integra-section">
+      <section className="py-16 md:py-20">
         <div className="max-w-[1440px] mx-auto px-6 md:px-10 lg:px-16">
           <RevealOnScroll>
             <div className="flex flex-col md:flex-row justify-between items-baseline mb-10 md:mb-12 gap-4">
@@ -280,69 +184,6 @@ export default function Projects() {
         </div>
       </section>
 
-      {/* Galeria Extra - Projetos Adicionais */}
-      <section className="py-16 md:py-20">
-        <div className="max-w-[1440px] mx-auto px-6 md:px-10 lg:px-16">
-          <RevealOnScroll>
-            <div className="text-center mb-12 md:mb-14">
-              <p className="text-[10px] tracking-[0.2em] text-integra-gold uppercase mb-3 md:mb-4">Galeria</p>
-              <h2 className="text-2xl md:text-3xl lg:text-4xl font-sans font-light text-integra-black tracking-wide">Mais Projetos</h2>
-            </div>
-          </RevealOnScroll>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
-            <RevealOnScroll delay={0}>
-              <ImageWithFade
-                src="/projetos/projeto-21.jpeg"
-                alt="Projeto Galeria 1"
-                aspectRatio="aspect-[16/10]"
-                className="overflow-hidden"
-                imgClassName="hover:scale-105 transition-transform duration-700"
-              />
-            </RevealOnScroll>
-            <RevealOnScroll delay={150}>
-              <ImageWithFade
-                src="/projetos/projeto-19.jpeg"
-                alt="Projeto Galeria 2"
-                aspectRatio="aspect-[16/10]"
-                className="overflow-hidden"
-                imgClassName="hover:scale-105 transition-transform duration-700"
-              />
-            </RevealOnScroll>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mt-6 md:mt-8">
-            <RevealOnScroll delay={0}>
-              <ImageWithFade
-                src="/projetos/projeto-20.jpeg"
-                alt="Projeto Galeria 3"
-                aspectRatio="aspect-[4/3]"
-                className="overflow-hidden"
-                imgClassName="hover:scale-105 transition-transform duration-700"
-              />
-            </RevealOnScroll>
-            <RevealOnScroll delay={100}>
-              <ImageWithFade
-                src="/projetos/projeto-10.jpeg"
-                alt="Projeto Galeria 4"
-                aspectRatio="aspect-[4/3]"
-                className="overflow-hidden"
-                imgClassName="hover:scale-105 transition-transform duration-700"
-              />
-            </RevealOnScroll>
-            <RevealOnScroll delay={200}>
-              <ImageWithFade
-                src="/projetos/projeto-11.jpeg"
-                alt="Projeto Galeria 5"
-                aspectRatio="aspect-[4/3]"
-                className="overflow-hidden"
-                imgClassName="hover:scale-105 transition-transform duration-700"
-              />
-            </RevealOnScroll>
-          </div>
-        </div>
-      </section>
-
       {/* CTA */}
       <section className="py-20 md:py-28 bg-integra-bg text-center border-t border-integra-beige/30">
         <RevealOnScroll>
@@ -355,7 +196,7 @@ export default function Projects() {
             </p>
             <a
               href="/contact"
-              className="btn-premium inline-block bg-integra-gold-dark hover:bg-[#a87220] text-white text-[10.5px] tracking-[0.15em] uppercase px-9 py-3.5 transition-all duration-300 hover:shadow-lg hover:shadow-integra-gold-dark/20"
+              className="btn-premium inline-block bg-integra-gold-light hover:bg-[#c49a5f] text-white text-[10.5px] tracking-[0.15em] uppercase px-9 py-3.5 transition-all duration-300 hover:shadow-lg hover:shadow-integra-gold-light/20"
             >
               Solicite um Or&ccedil;amento
             </a>

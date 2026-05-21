@@ -1,9 +1,31 @@
 import React, { useEffect } from 'react';
-import ImageWithFade from '../components/ImageWithFade';
 import RevealOnScroll from '../components/RevealOnScroll';
 import MagneticButton from '../components/MagneticButton';
 
 const WHATSAPP_URL = 'https://wa.me/5511943400222';
+
+import { MessageCircle, Sparkles, PencilRuler, ClipboardCheck } from 'lucide-react';
+
+const IconEscuta = ({ className = '' }) => (
+  <div className={`relative inline-block ${className}`}>
+    <MessageCircle size={68} strokeWidth={0.75} />
+  </div>
+);
+const IconConceito = ({ className = '' }) => (
+  <div className={`relative inline-block ${className}`}>
+    <Sparkles size={68} strokeWidth={0.75} />
+  </div>
+);
+const IconDesenvolvimento = ({ className = '' }) => (
+  <div className={`relative inline-block ${className}`}>
+    <PencilRuler size={68} strokeWidth={0.75} />
+  </div>
+);
+const IconAcompanhamento = ({ className = '' }) => (
+  <div className={`relative inline-block ${className}`}>
+    <ClipboardCheck size={68} strokeWidth={0.75} />
+  </div>
+);
 
 export default function Methodology() {
   useEffect(() => {
@@ -19,7 +41,7 @@ export default function Methodology() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 mb-20 md:mb-24">
             <div className="lg:col-span-8">
               <p className="text-[10px] tracking-[0.2em] text-integra-gold uppercase mb-5 md:mb-6">Metodologia</p>
-              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-sans font-light leading-[1.08] tracking-wide text-integra-black">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-futura font-light leading-[1.08] tracking-wide text-integra-black">
                 Nosso<br />
                 Processo
               </h1>
@@ -38,88 +60,64 @@ export default function Methodology() {
 
             {/* Step 01 */}
             <RevealOnScroll delay={0}>
-              <div>
-                <div className="mb-6 md:mb-8">
-                  <ImageWithFade
-                    src="/projetos/projeto-05.jpeg"
-                    alt="Escuta e Entendimento"
-                    aspectRatio="aspect-[3/4]"
-                  />
+              <div className="flex flex-col items-center text-center">
+                <div className="mb-6 md:mb-8 text-integra-gold">
+                  <IconEscuta />
                 </div>
-                <div className="flex gap-4">
-                  <span className="text-3xl font-sans font-light text-integra-gold flex-shrink-0">01</span>
-                  <div>
-                    <h3 className="text-lg md:text-xl font-sans text-integra-black mb-3 md:mb-4 tracking-wide">Escuta e<br />Entendimento</h3>
-                    <p className="text-integra-gray text-base leading-relaxed">
-                      Tudo come&ccedil;a com um briefing detalhado, onde s&atilde;o explorados h&aacute;bitos, necessidades, refer&ecirc;ncias e estilo de vida.
-                    </p>
-                  </div>
+                <div className="flex flex-col items-center">
+                  <span className="text-3xl font-futura font-light text-integra-gold mb-3 md:mb-4">01</span>
+                  <h3 className="text-lg md:text-xl font-futura text-integra-black mb-3 md:mb-4 tracking-wide">Escuta e<br />Entendimento</h3>
+                  <p className="text-integra-gray text-base leading-relaxed">
+                    Tudo come&ccedil;a com um briefing detalhado, onde s&atilde;o explorados h&aacute;bitos, necessidades, refer&ecirc;ncias e estilo de vida.
+                  </p>
                 </div>
               </div>
             </RevealOnScroll>
 
             {/* Step 02 */}
             <RevealOnScroll delay={120}>
-              <div className="lg:mt-16 xl:mt-28">
-                <div className="mb-6 md:mb-8">
-                  <ImageWithFade
-                    src="/projetos/projeto-09.jpeg"
-                    alt="Conceito e Direcao Criativa"
-                    aspectRatio="aspect-[4/5]"
-                  />
+              <div className="lg:mt-16 xl:mt-28 flex flex-col items-center text-center">
+                <div className="mb-6 md:mb-8 text-integra-gold">
+                  <IconConceito />
                 </div>
-                <div className="flex gap-4">
-                  <span className="text-3xl font-sans font-light text-integra-gold flex-shrink-0">02</span>
-                  <div>
-                    <h3 className="text-lg md:text-xl font-sans text-integra-black mb-3 md:mb-4 tracking-wide">Conceito e Dire&ccedil;&atilde;o<br />Criativa</h3>
-                    <p className="text-integra-gray text-base leading-relaxed">
-                      A partir dessas informa&ccedil;&otilde;es, &eacute; desenvolvido um conceito que orienta toda a linguagem est&eacute;tica do projeto.
-                    </p>
-                  </div>
+                <div className="flex flex-col items-center">
+                  <span className="text-3xl font-futura font-light text-integra-gold mb-3 md:mb-4">02</span>
+                  <h3 className="text-lg md:text-xl font-futura text-integra-black mb-3 md:mb-4 tracking-wide">Conceito e Dire&ccedil;&atilde;o<br />Criativa</h3>
+                  <p className="text-integra-gray text-base leading-relaxed">
+                    A partir dessas informa&ccedil;&otilde;es, &eacute; desenvolvido um conceito que orienta toda a linguagem est&eacute;tica do projeto.
+                  </p>
                 </div>
               </div>
             </RevealOnScroll>
 
             {/* Step 03 */}
             <RevealOnScroll delay={240}>
-              <div className="lg:mt-8 xl:mt-16">
-                <div className="mb-6 md:mb-8">
-                  <ImageWithFade
-                    src="/projetos/projeto-14.jpeg"
-                    alt="Desenvolvimento do Projeto"
-                    aspectRatio="aspect-[3/4]"
-                  />
+              <div className="lg:mt-8 xl:mt-16 flex flex-col items-center text-center">
+                <div className="mb-6 md:mb-8 text-integra-gold">
+                  <IconDesenvolvimento />
                 </div>
-                <div className="flex gap-4">
-                  <span className="text-3xl font-sans font-light text-integra-gold flex-shrink-0">03</span>
-                  <div>
-                    <h3 className="text-lg md:text-xl font-sans text-integra-black mb-3 md:mb-4 tracking-wide">Desenvolvimento<br />do Projeto</h3>
-                    <p className="text-integra-gray text-base leading-relaxed">
-                      S&atilde;o definidas solu&ccedil;&otilde;es que integram funcionalidade, est&eacute;tica e identidade, com aten&ccedil;&atilde;o minuciosa aos detalhes.
-                    </p>
-                  </div>
+                <div className="flex flex-col items-center">
+                  <span className="text-3xl font-futura font-light text-integra-gold mb-3 md:mb-4">03</span>
+                  <h3 className="text-lg md:text-xl font-futura text-integra-black mb-3 md:mb-4 tracking-wide">Desenvolvimento<br />do Projeto</h3>
+                  <p className="text-integra-gray text-base leading-relaxed">
+                    S&atilde;o definidas solu&ccedil;&otilde;es que integram funcionalidade, est&eacute;tica e identidade, com aten&ccedil;&atilde;o minuciosa aos detalhes.
+                  </p>
                 </div>
               </div>
             </RevealOnScroll>
 
             {/* Step 04 */}
             <RevealOnScroll delay={360}>
-              <div className="lg:mt-16 xl:mt-32">
-                <div className="mb-6 md:mb-8">
-                  <ImageWithFade
-                    src="/projetos/projeto-19.jpeg"
-                    alt="Acompanhamento"
-                    aspectRatio="aspect-[4/3]"
-                  />
+              <div className="lg:mt-16 xl:mt-32 flex flex-col items-center text-center">
+                <div className="mb-6 md:mb-8 text-integra-gold">
+                  <IconAcompanhamento />
                 </div>
-                <div className="flex gap-4">
-                  <span className="text-3xl font-sans font-light text-integra-gold flex-shrink-0">04</span>
-                  <div>
-                    <h3 className="text-lg md:text-xl font-sans text-integra-black mb-3 md:mb-4 tracking-wide">Acompanhamento</h3>
-                    <p className="text-integra-gray text-base leading-relaxed">
-                      O atelier acompanha a execu&ccedil;&atilde;o para garantir que o resultado final respeite o conceito proposto.
-                    </p>
-                  </div>
+                <div className="flex flex-col items-center">
+                  <span className="text-3xl font-futura font-light text-integra-gold mb-3 md:mb-4">04</span>
+                  <h3 className="text-lg md:text-xl font-futura text-integra-black mb-3 md:mb-4 tracking-wide">Acompanhamento</h3>
+                  <p className="text-integra-gray text-base leading-relaxed">
+                    O atelier acompanha a execu&ccedil;&atilde;o para garantir que o resultado final respeite o conceito proposto.
+                  </p>
                 </div>
               </div>
             </RevealOnScroll>
@@ -129,10 +127,10 @@ export default function Methodology() {
       </div>
 
       {/* CTA */}
-      <section className="py-20 md:py-28 bg-integra-bg text-center border-t border-integra-beige/30">
+      <section className="py-20 md:py-28 bg-integra-section text-center border-t border-integra-beige/30">
         <RevealOnScroll>
           <div className="max-w-3xl mx-auto px-6">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif font-light text-integra-black mb-7 md:mb-8 tracking-[0.01em]">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-futura font-light text-integra-black mb-7 md:mb-8 tracking-wide">
               Uma Jornada Guiada por Confian&ccedil;a
             </h2>
             <p className="text-integra-gray text-base leading-relaxed mb-10 md:mb-12 max-w-xl mx-auto">

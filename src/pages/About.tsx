@@ -63,7 +63,7 @@ export default function About() {
       <section className="py-20 md:py-28 max-w-[1440px] mx-auto px-6 md:px-10 lg:px-16">
         <div className="max-w-4xl mx-auto">
           <RevealOnScroll>
-            <p className="text-[10px] tracking-[0.2em] text-integra-gold uppercase mb-5 md:mb-6">Fundadora</p>
+            <p className="text-[10px] tracking-[0.2em] text-integra-black uppercase mb-5 md:mb-6">Fundadora</p>
             <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-sans font-light text-integra-black mb-12 md:mb-16 tracking-wide">Mara Meloni</h2>
           </RevealOnScroll>
 
@@ -71,13 +71,7 @@ export default function About() {
             <RevealOnScroll>
               <div>
                 <p className="text-integra-gray text-base leading-relaxed mb-5">
-                  Mara Meloni &eacute; designer de interiores e fundadora do Integra Atelier de Interiores. Sua trajet&oacute;ria profissional &eacute; marcada pela transi&ccedil;&atilde;o de carreira durante a pandemia, quando decidiu transformar um interesse antigo em prop&oacute;sito.
-                </p>
-                <p className="text-integra-gray text-base leading-relaxed mb-5">
-                  O ponto de virada aconteceu ao projetar o pr&oacute;prio apartamento &mdash; um projeto que despertou reconhecimento e consolidou sua decis&atilde;o de atuar na &aacute;rea.
-                </p>
-                <p className="text-integra-gray text-base leading-relaxed">
-                  Com forma&ccedil;&atilde;o t&eacute;cnica em Design de Interiores e gradua&ccedil;&atilde;o em andamento, Mara est&aacute; em constante aprimoramento por meio de cursos, mostras e eventos do setor.
+                  Mara Meloni &eacute; arquiteta de interiores e fundadora do Integra Atelier de Interiores. Sua trajet&oacute;ria profissional &eacute; marcada pela transi&ccedil;&atilde;o de carreira durante a pandemia, quando decidiu transformar um interesse antigo em prop&oacute;sito.
                 </p>
               </div>
             </RevealOnScroll>
@@ -174,7 +168,7 @@ export default function About() {
       </section>
 
       {/* Posicionamento */}
-      <section className="py-20 md:py-28 bg-integra-black text-white">
+      <section className="py-20 md:py-28 bg-integra-beige text-integra-black">
         <div className="max-w-4xl mx-auto px-6 md:px-10 lg:px-16 text-center">
           <RevealOnScroll>
             <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-sans font-light leading-tight tracking-wide mb-7 md:mb-8">
@@ -188,12 +182,12 @@ export default function About() {
       <section className="py-20 md:py-28 bg-integra-bg text-center">
         <RevealOnScroll>
           <div className="max-w-2xl mx-auto px-6">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif font-light text-integra-black mb-10 md:mb-12 tracking-[0.01em]">Inicie a Conversa.</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-futura font-light text-integra-black mb-10 md:mb-12 tracking-[0.01em]">Inicie a Conversa.</h2>
             <MagneticButton
               href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-premium inline-block bg-integra-gold-dark hover:bg-[#a87220] text-white text-[10.5px] tracking-[0.15em] uppercase px-9 py-3.5 transition-all duration-300 hover:shadow-lg hover:shadow-integra-gold-dark/20"
+              className="btn-premium inline-block bg-integra-gold-light hover:bg-[#c49a5f] text-white text-[10.5px] tracking-[0.15em] uppercase px-9 py-3.5 transition-all duration-300 hover:shadow-lg hover:shadow-integra-gold-light/20"
             >
               Solicite uma Consultoria
             </MagneticButton>
